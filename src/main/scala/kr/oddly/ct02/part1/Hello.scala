@@ -4,7 +4,19 @@ import scala.io.StdIn._
 
 object Hello {
   def main(args: Array[String]): Unit = {
-    val name = readLine("What is your name? ")
-    println("Hello, " + name + ", nice to meet you!")
+    val name = getName()
+    say(concat(name))
+  }
+  
+  def getName(): String = {
+    readLine("What is your name? ")
+  }
+  
+  def concat(name: String): String = {
+    "Hello, " + name + ", nice to meet you!"
+  }
+  
+  def say(what: String) = {
+    println(what)
   }
 }

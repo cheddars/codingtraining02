@@ -30,4 +30,15 @@ Homer has 5 characters
 모르는 것
  - 문자열 카운트 내장함수  "string".length()
 
+## 3. 따옴표 출력
 
+인용구와 그 말을 한 사람을 입력 받는 프로그램 작성
+
+출력예>
+What is the quote? These aren't the droids you're looking for
+Who said it? Obi-Wan kenobi
+Obi-Wan Kenobi says, "These aren't the droids you're looking for"
+
+제약 조건
+ - 한개의 출력문만 사용
+ - 보간이나 대체를 사용하지 말고 문자열 연결을 사용
